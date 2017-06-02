@@ -13,15 +13,12 @@ For this lab you will need:
 
 ## Tasks
 
-### Create an Account On GitHub
-If you don't have an account on GitHub, go [here](https://github.com/join) to create one. Once created, or if you already have one, please tell me the username so that I can make you a contributer to this repo. 
-
 ### Clone an Existing Repository from GitHub
-Clone [the class workspace](https://github.com/coder-education/Class1-ClassWorkspace) repository from GitHub.
+Clone [the class workspace](https://github.com/ITSE-1402/git-classworkspace) repository from GitHub.
 ```console
-$ git clone https://github.com/coder-education/Class1-ClassWorkspace
-Cloning into 'Class1-ClassWorkspace'...
-remote: Counting objects: 184, done.
+$ git clone git@github.com:ITSE-1402/git-classworkspace.git
+Cloning into 'git-classworkspace'...
+remote: Counting objects: 3, done.
 remote: Compressing objects: 100% (163/163), done.
 remote: Total 184 (delta 36), reused 145 (delta 17), pack-reused 0
 Receiving objects: 100% (184/184), 3.97 MiB | 3.25 MiB/s, done.
@@ -33,7 +30,7 @@ Checking connectivity... done.
 ### Branch, Edit, and Push
 Create a new branch to make some changes (make up your own branch name).  Make some changes in your branch, stage and commit those changes on your branch.  Push those changes up to GitHub.
 ```console
-$ cd class_scratchpad
+$ cd git-classworkspace
 $ git checkout -b {my_cool_branchname}
 ... make some changes ...
 $ git add {all_the_changes}
@@ -42,7 +39,7 @@ $ git commit -m "description of the changes"
 $ git push origin {my_cool_branchname}
 ```
 
-Now that your changes are up on GitHub, file a Pull Request based on your new branch.  Go to the [repo](https://github.com/coder-education/Class1-ClassWorkspace) to file your Pull Request.  While you are there be sure to comment on the Pull Requests from your fellow classmates.
+Now that your changes are up on GitHub, file a Pull Request based on your new branch.  Go to the [repo](https://github.com/ITSE-1402/git-classworkspace) to file your Pull Request.  While you are there be sure to comment on the Pull Requests from your fellow classmates.
 
 > Note: For more info on Pull Requests go to the [GitHub help page](https://help.github.com/articles/using-pull-requests/)
 
