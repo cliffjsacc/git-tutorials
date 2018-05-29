@@ -16,6 +16,7 @@ Create a new directory named `lab-2` to work in and initialize a repository ther
 > [See Lab 1](lab-1.md) if you need a refresher on the steps
 
 ```console
+$ cd ~/workspace
 $ mkdir lab-2 && cd lab-2
 $ git init .
 $ echo "" > README

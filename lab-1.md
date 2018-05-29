@@ -82,6 +82,8 @@ $ git commit -m 'Sometimes the world needs a "Hello".'
  create mode 100644 hello_world.txt
 ```
 
+Note: if you commit without a -m "message", you may enter a vi(m) editor. If this happens, you press "i" to insert and ":wq" to write and exit. There is a lot more to learn for vi(m), but that's all you need to know for now.
+
 ### Take a Look at the History of the Repository
 Now that we have some history in Git, let's take a look:
 ```console
