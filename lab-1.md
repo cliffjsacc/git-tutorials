@@ -82,7 +82,7 @@ $ git commit -m 'Sometimes the world needs a "Hello".'
  create mode 100644 hello_world.txt
 ```
 
-Note: if you commit without a -m "message", you may enter a vi(m) editor. If this happens, you press "i" to insert and ":wq" to write and exit. There is a lot more to learn for vi(m), but that's all you need to know for now.
+Note: if you commit without a -m "message", you may enter a vi(m) editor or possibly nano. If this happens, you press "i" to insert and ":wq" to write and exit or if you see "exit" in the bottom left corner, press "ctrl-x". There is a lot more to learn for vi(m), but that's all you need to know for now.
 
 ### Take a Look at the History of the Repository
 Now that we have some history in Git, let's take a look:
@@ -94,6 +94,9 @@ Date:   Thu Aug 13 11:47:00 2015 -0500
 
     Sometimes the world needs a "Hello"
 ```
+
+> Note: When in 'git log', you may need to type "q" to exit out.
+
 
 ### Check the Status of Things
 Since Git is managing the state of our directory for us we can ask it for a status at any time.
@@ -185,6 +188,9 @@ Date:   Thu Aug 13 11:47:00 2015 -0500
 
     Sometimes the world needs a "Hello".
 ```
+
+> Note: When in 'git log', you may need to type "q" to exit out.
+
 
 ### Check Out The Differences
 It is useful to be able to see what you've changed in a repository in order to select the proper changes for staging and committing.  Create a new file called `new_file`, stage `new_file`, commit the initial file.  Add another line to the file and ask Git for the differences.

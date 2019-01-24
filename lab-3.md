@@ -31,12 +31,12 @@ Checking connectivity... done.
 Create a new branch to make some changes (make up your own branch name).  Make some changes in your branch, stage and commit those changes on your branch.  Push those changes up to GitHub.
 ```console
 $ cd git-classworkspace
-$ git checkout -b {my_cool_branchname}
+$ git checkout -b {my_cool_branchname}    (replace this with a branch name)
 ... make some changes ...
-$ git add {all_the_changes}
+$ git add {all_the_changes}               (replace this with the files that you changed)
 $ git commit -m "description of the changes"
 ... make sure you add and commit some changes to your branch, otherwise there will be nothing to push to GitHub ...
-$ git push origin {my_cool_branchname}
+$ git push origin {my_cool_branchname}    (replace this with the same branch name from before)
 ```
 
 Now that your changes are up on GitHub, file a Pull Request based on your new branch.  Go to the [repo](https://github.com/ITSE-1402/git-classworkspace) to file your Pull Request.  While you are there be sure to comment on the Pull Requests from your fellow classmates.
