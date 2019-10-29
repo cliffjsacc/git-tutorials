@@ -7,7 +7,7 @@ As GitHub is an optional class resource, so this lab also is optional. Even thou
 
 ## Prerequisites
 For this lab you will need:
-* A Cloud 9 Workspace
+* An IDE Workspace
 * Knowledge of the Basic Commands of Git [See Lab 1](lab-1.md)
 * Basic Knowledge of Branching and Merging in Git [See Lab 2](lab-2.md)
 
