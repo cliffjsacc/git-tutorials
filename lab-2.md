@@ -5,7 +5,7 @@ In this lab you will do the following:
 
 ## Prerequisites
 For this lab you will need:
-* A Cloud 9 Workspace
+* A IDE Bash Workspace
 * Knowledge of the Basic Commands of Git [See Lab 1](lab-1.md)
 
 ## Tasks
