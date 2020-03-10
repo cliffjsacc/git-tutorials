@@ -6,7 +6,7 @@ In this lab you will do the following:
 
 ## Prerequisites
 For this lab you will need:
-* A Cloud 9 Workspace
+* A cloud workspace
 
 ## Tasks
 
